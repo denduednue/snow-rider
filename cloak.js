@@ -156,7 +156,7 @@ function addBtnHome(){
     e.className = 'in-game-button';
     e.id = 'inGame';
     e.innerHTML = `
-    <img src="https://blackboro.github.io/games/logo-77games.png" width="130px" height="35px" alt="77GAMES.io">`;
+    <img src="https://ubg76.github.io/Ubg76.png" width="130px" height="35px" alt="Unblcoked Games 76">`;
     document.getElementsByTagName('body')[0].appendChild(e);
 }
 
@@ -178,7 +178,7 @@ function loadFirebase(){
         },document.head.appendChild(database);
     },document.head.appendChild(r);
 }
-if (window.location.href !== 'https://77games.io/') {
+if (window.location.href !== 'https://ubg76.github.io/') {
     window.addEventListener('load', function() {
         addCss();
         addBtnHome();
@@ -193,11 +193,11 @@ function returnHome(){
     if(window.hold == true){
         return;
     }
-    var newWindow = window.open("https://77games.io", "_blank");
-    newWindow.document.title = "77GAMES.io";
+    var newWindow = window.open("https://ubg76.github.io", "_blank");
+    newWindow.document.title = "Unblcoked Games 76";
 }
 function opendiscord(){
-    window.open("https://77games.io");
+    window.open("https://ubg76.github.io");
 }
 window.alert = function() {};
 
